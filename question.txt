@@ -1,0 +1,6 @@
+We want to decide the best possible position x ∈ R2 to place a 5G antenna. The ideal 2
+position is a known constant b ∈ R . Unfortunately, we cannot place the antenna there, so we want to minimize the 1-norm distance
+||x−b||1 =|x1 −b1|+|x2 −b2|
+instead. The set of possible positions is given as a list of triangles: the coordinates (x1,x2) of the antenna must lie
+in (at least) one of the triangles. The triangles are described by their vertices vt,1,vt,2,vt,3 ∈ R2, for t = 1,...,T,
+where we have T triangles in total. Formulate the problem of finding the best possible position x as an integer programming problem.
